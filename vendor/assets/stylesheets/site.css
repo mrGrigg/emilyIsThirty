@@ -1,0 +1,45 @@
+body {	
+	font-family: 'Josefin Sans', sans-serif;	
+	color: #888;
+	width:877px;
+	margin: 5px auto;
+}
+
+header {	
+	background: url(https://s3.amazonaws.com/emilyisthirty/banner.jpg) no-repeat top center;
+	height:200px;
+	text-align:center;
+	font-size:72px;
+	color:#FFF;
+}
+
+#memories {
+	position:relative;
+}
+
+#addMemory:hover {
+	cursor:pointer;
+	text-decoration:underline;
+}
+.memory {
+	display: inline-block;
+	position:relative;
+	border:1px dashed #888;
+	margin:3px;
+	padding:3px;
+}
+
+.memory > h3{
+	cursor: pointer;
+	display:inline-block;
+	margin:0;
+
+}
+
+.memory > p {
+	display:none;
+}
+
+.memory:hover, .memory > p:hover {
+	border:solid 1px;
+}

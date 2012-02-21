@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>emily is thirty</title>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/site.css" />
+  <script src="javascripts/lib/jquery-1.7.1.min.js"></script>
+  <script src="javascripts/lib/underscore-min.js"></script>
+  <script src="javascripts/lib/backbone-min.js"></script>
+  <script src="javascripts/lib/handlebars.js"></script>
+  <script src="javascripts/lib/require.js" data-main="javascripts/application"></script>
+
+</head>
+	<body>
+		<header id="title">emily has turned thirty!</header>
+		<div id="addMemory">
+			<h3 class="add">+ Share a memory or a birthday wish!</h3>
+			<div id="newMemoryForm">				
+				<a class="close" title="Close">X</a>
+				<label for="newName">Your name</label>
+				<input type="text" id="newName" placeholder="Your friend" />
+				<label for="newMemory">Your memory</label>
+				<textarea rows="8" id="newMemory"></textarea>
+				<button id="addNewMemory">Submit</button>
+			</div>
+		</div>
+		<div id="memories"></div>
+	</body>
+</html>

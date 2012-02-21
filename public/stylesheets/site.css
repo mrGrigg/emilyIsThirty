@@ -1,0 +1,144 @@
+body {	
+	font-family: 'Josefin Sans', sans-serif;	
+	color: #888;
+	width:877px;
+	margin: 5px auto;
+}
+
+header {	
+	background: url(https://s3.amazonaws.com/emilyisthirty/banner.jpg) no-repeat top center;
+	height:200px;
+	text-align:center;
+	font-size:72px;
+	color:#FFF;
+}
+
+#addMemory {	
+	display:inline-block;
+	position:relative;
+}
+
+#addMemory h3 {
+	cursor: pointer;
+	display:inline-block;
+	margin:0;
+}
+
+#addMemory h3:hover {
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#newMemoryForm {
+	display:none;
+	position:absolute;
+	left: 340px;
+	top: 5px;
+	padding:3px;
+	width:300px;
+	height:250px;
+	border: solid 1px #888;
+	background-color:#FFF;
+	z-index:101;
+}
+
+#addNewMemory {
+	float:right;
+}
+
+#newName, #newMemory {
+	width:290px;
+	display:block;
+}
+
+#newMemoryForm label {
+	display:block;
+	margin:0;
+	padding:0;
+}
+
+#memories {
+	position:absolute;
+}
+
+.memory {
+	display: inline-block;
+	position:relative;
+	border:1px dashed #888;
+	margin:3px;
+	padding:3px;
+}
+
+.memory:hover {
+	border:solid 1px;
+}
+
+.memoryText.open {
+	display:block;
+	border:solid 1px;
+	cursor:pointer;
+}
+
+.memory h3{
+	cursor: pointer;
+	margin:0;
+
+}
+
+.memory .memoryText {
+	display:none;
+	position:absolute;
+	top:-1px;
+	left:-1px;
+	padding:3px;
+	width:300px;
+	border: solid 1px #888;
+	background-color:#FFF;
+	z-index:101;
+}
+
+.close {
+	cursor: pointer;
+	position:absolute;
+	top:0px;
+	right:0px;
+	font-size:.75em;
+	padding:0 5px;
+	border-left: solid 1px;
+	border-bottom: solid 1px;
+}
+
+.close:hover {
+	color:#900;
+}
+
+.birthdayColor1 {
+	color:#418FBF;
+}
+.birthdayColor2 {
+	color:#77A649;
+}
+.birthdayColor3 {
+	color:#E87EB8;
+}
+.birthdayColor4 {
+	color:#E797FF;
+}
+.birthdayColor5 {
+	color:#8A747B;
+}
+.birthdayColor6 {
+	color:#75C5CF;
+}
+.birthdayColor7 {
+	color:#FFBA4B;
+}
+.birthdayColor8 {
+	color:#47444C;
+}
+.birthdayColor9 {
+	color:#662839;
+}
+.birthdayColor0 {
+	color:#FF734C;
+}
