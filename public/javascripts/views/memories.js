@@ -95,7 +95,8 @@ define(['models/MemoryCollection', '../lib/tmpl!./memory'], function(Memories, t
 			//Create and save the model
 			this.collection.create({
 				name: this.$('#newName').val(),
-				text: this.$('#newMemory').val()
+				text: this.$('#newMemory').val(),
+				date: Date.now()
 			});
 
 			//Clear the form
