@@ -1,3 +1,3 @@
 require(['views/memories'], function(Memories) {
-	var memories = new Memories();
+    var memories = new Memories();
 });
