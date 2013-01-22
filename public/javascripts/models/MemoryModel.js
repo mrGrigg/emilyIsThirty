@@ -2,7 +2,7 @@ define([], function() {
     return Backbone.Model.extend({
         defaults: function() {
             return {
-                name: 'A friend'    
+                name: 'A friend'
             };
         },
 
